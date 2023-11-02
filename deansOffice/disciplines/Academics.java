@@ -22,6 +22,6 @@ public class Academics {
     public String toString(){
         return "Name of the discipline: " + this.disciplineName + ". Control type: " + this.controlType + "."
                 + ((this.time!=null) ? " Time:"+ this.time : "Time has not been set up yet.") +
-                ((this.pass=true) ? " Pass: passed" : "Pass: not passed");
+                ((this.pass=true) ? " Pass: passed" : "Pass: not passed" + ". Grade: " + this.grade);
     }
 }
