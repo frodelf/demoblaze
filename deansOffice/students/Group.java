@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Group {
     private int id;
     private LocalDate creationDate;
-    private ArrayList<Student> members= new ArrayList<>();
+    private static ArrayList<Student> members= new ArrayList<>();
 
     private static ArrayList<Integer> ids = new ArrayList<>();
     public Group(int id, LocalDate creationDate){
